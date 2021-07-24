@@ -1,5 +1,4 @@
-package study;
-
+package JavaTrainingAssignments;
 public class LibraryMain {
 
 	public static void main(String[] args) {

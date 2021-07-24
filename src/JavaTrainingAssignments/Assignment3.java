@@ -1,5 +1,4 @@
-package assignments;
-
+package JavaTrainingAssignments;
 import java.util.Scanner;
 
 public class Assignment3 {
