@@ -15,6 +15,7 @@ void eat()
 	System.out.println("eating...");
 	}  
 }  
+// this class shows the inheritance.
 class Dog extends Animal{  
 void eat()
 	{
