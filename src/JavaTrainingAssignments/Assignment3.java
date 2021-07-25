@@ -1,8 +1,6 @@
 package JavaTrainingAssignments;
 import java.util.Scanner;
-
 public class Assignment3 {
-
 	public static void main(String[] args) {
 		
 		String string;  
@@ -14,7 +12,6 @@ public class Assignment3 {
 		{  
 		System.out.print(string.charAt(i-1));            //printing the character at index i-1  
 		}  
-
 	}
 
 }

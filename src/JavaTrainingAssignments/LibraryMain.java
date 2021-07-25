@@ -4,9 +4,7 @@ public class LibraryMain {
 	public static void main(String[] args) {
 
 	}
-
 }
-
 class Author{
 	private String authorName;
 	private String description;
@@ -16,13 +14,11 @@ class Library{
 	private String name;
 	private String address;
 }
-
 class Student extends Account{
 	private String schoolName;
 	private String schoolId;
 	boolean schoolDiscount;
 }
-
 class Account{
 	private String firstName;
 	private String lastName;
@@ -45,7 +41,6 @@ class Librarian extends Account{
 		
 	}
 }
-
 class Member extends Account{
 	String availedMembership;
 	public void dateOfMembership() {
@@ -56,7 +51,6 @@ class Member extends Account{
 		
 	}	
 }
-
 class Book{
 	private String title;
 	private String subject;
@@ -65,7 +59,6 @@ class Book{
 	public int numberOfPages;
 	public String genre;
 }
-
 class BookItem extends Book{
 	public String barcode;
 	boolean isReferenceOnly;
@@ -75,22 +68,17 @@ class BookItem extends Book{
 	public String format;
 	public String status;
 	public String dateOfPurchase;
-	public String publicationDate;
-	
+	public String publicationDate;	
 }
-
 class LibraryCard{
 	public String cardNumber;
 	public String barcode;
 	public String issuedAt;
-	boolean active;
-	
+	boolean active;	
 }
-
 class BookLending{
 	public String creationDate;
-	public String dueData;
-	
+	public String dueData;	
 }
 
 

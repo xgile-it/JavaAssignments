@@ -3,12 +3,8 @@ package JavaTrainingAssignments;
 import java.util.Scanner;
 
 public class Assignment2 {
-
-		public void Decimalcomparsion() {
-			
-		}
-
-		public static void main(String[] args) {
+	
+		 public static void main(String[] args) {
 	     Scanner scanner = new Scanner(System.in); 
 	     System.out.println("Enter a double number : ");
 	     double number = scanner.nextDouble();
@@ -26,7 +22,6 @@ public class Assignment2 {
 		{
 		System.out.println("Not Equal");	
 		}
-
 	}
 }
 
